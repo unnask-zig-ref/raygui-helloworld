@@ -13,6 +13,12 @@ pub fn build(b: *std.Build) void {
         .optimize = optimize,
     });
 
+    const rayguiDep = b.dependency("raygui", .{
+        .target = target,
+        .optimize = optimize,
+    });
+    exe.addIncludePath(rayguiDep.path("src/"));
+
     //note that the name here in the string needs to match whatever you used
     //in build.zig.zon
     //This is a reference to the dependency.

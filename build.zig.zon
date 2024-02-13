@@ -7,6 +7,10 @@
             .url = "https://github.com/raysan5/raylib/archive/4cd71a975086fa3be3b28d765e45c4bb7dc4e101.tar.gz",
             .hash = "1220218d3958e4b46293456abc189ec98e8a7e3add6a46550b852bc0952609805315",
         },
+        .raygui = .{
+            .url = "https://github.com/raysan5/raygui/archive/7fe39be75af7d166c50afb6e6b9013398d66a7e1.tar.gz",
+            .hash = "12205b5293d62a48e0c111011f5832f72d4dad0594097eeae10a3a9edcda5bf17612",
+        },
     },
     .paths = .{
         "build.zig",
