@@ -2,6 +2,7 @@
     .name = "raylib-helloworld",
     .version = "0.0.1",
     .dependencies = .{
+        //note that this is the dependency name
         .raylib = .{
             .url = "https://github.com/raysan5/raylib/archive/4cd71a975086fa3be3b28d765e45c4bb7dc4e101.tar.gz",
             .hash = "1220218d3958e4b46293456abc189ec98e8a7e3add6a46550b852bc0952609805315",
